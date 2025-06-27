@@ -1,0 +1,55 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header {
+  background-color: #015c5e;
+  color: white;
+  padding: 2em 1em;
+  text-align: center;
+}
+.disclaimer {
+  font-size: 0.9em;
+  font-style: italic;
+}
+main {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+.features ul, .pros-cons ul {
+  padding-left: 1.2em;
+}
+.pros-cons {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+.pros, .cons {
+  flex: 1;
+}
+.cta {
+  text-align: center;
+  margin-top: 2em;
+}
+.cta-button {
+  background-color: #00a82d;
+  color: white;
+  padding: 1em 2em;
+  text-decoration: none;
+  border-radius: 6px;
+}
+footer {
+  background-color: #015c5e;
+  color: white;
+  padding: 2em;
+  text-align: center;
+  font-size: 0.9em;
+}
+footer a {
+  color: #d6f5f5;
+}
